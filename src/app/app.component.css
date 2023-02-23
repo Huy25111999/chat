@@ -1,0 +1,26 @@
+
+    .logo-chat {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+  .dialog {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 46px;
+    margin-bottom: 140px;
+
+    }
+
+  /* chat */
+  ::ng-deep nb-layout-column {
+    justify-content: center;
+    display: flex;
+  }
+  nb-chat {
+    width: 450px;
+    height: 720px;
+    background: linear-gradient(117.54deg, rgba(255, 255, 255, 0.7) -12.39%, rgba(235, 235, 235, 0.367354) 4.2%, rgba(224, 224, 224, 0.287504) 13.88%, rgba(245, 242, 242, 0.26) 25.06%, rgba(207, 207, 207, 0.28) 34.83%, rgba(202, 202, 202, 0.3) 46.32%, rgba(215, 214, 214, 0.263767) 53.11%, rgba(238, 235, 235, 0.2) 68.48%, rgba(255, 255, 255, 0.17) 99.5%) !important;
+  }
